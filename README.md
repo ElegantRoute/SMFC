@@ -8,3 +8,4 @@ Safe map For Children
 3. 어린이 보행자 사고
 4. 동별 인구 데이터
 5. 유동인구 
+6. CCTV
