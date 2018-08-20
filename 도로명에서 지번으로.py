@@ -1,4 +1,7 @@
 from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 
 p1 = re.compile('[가-힣]{4}[시] [가-힣]+[구] [0-9가-힣]+[길|로] [0-9\-0-9]+|[가-힣]+[도] [가-힣]+[시] [0-9가-힣]+[길|로] [0-9\-0-9]+|[가-힣]+[도] [가-힣]+[시] [0-9가-힣]+[구] [0-9가-힣]+[길|로] [0-9\-0-9]+|[가-힣]+[도] [가-힣]+[시] [가-힣]+[읍] [0-9가-힣]+[길|로] [0-9\-0-9]+')
 p2 = re.compile('서울특별시 [가-힣]+구 [가-힣0-9]+[동|가]')
